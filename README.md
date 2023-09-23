@@ -37,7 +37,8 @@
 
 ## Overview
 
-![Screenshot 2023-09-23 at 16-10-55 recipe](https://github.com/leaclf/recipe/assets/138538372/848b4391-9729-417c-9136-979262c79762)
+![Screenshot 2023-09-23 at 16-42-04 recipe](https://github.com/leaclf/recipe/assets/138538372/a2ce684d-cb6d-44ac-9ad6-3c7341d49c55)
+
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
