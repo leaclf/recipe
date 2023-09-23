@@ -37,7 +37,7 @@ body {
 }
 .symbol {
   color: rgb(255, 179, 0);
-  margin-right: 0.2em;
+  margin-right: 0.5em;
   align-self: center;
 }
 .preparation__text {
@@ -58,6 +58,7 @@ body {
   display: flex;
   flex: 1 1 7em;
   color: #222;
+  width: 100%;
 }
 
 .steps__header {
@@ -71,6 +72,14 @@ body {
   margin: 0;
   color: #333;
   font-weight: 500;
+}
+.steps-holder {
+  display: flex;
+  align-items: center;
+}
+
+.steps__body {
+  margin-left: 0.5em;
 }
 .ingredient {
   color: #333;
@@ -147,8 +156,8 @@ input[type="checkbox"] {
     max-width: 528px;
   }
   .sidepanel {
-    margin-left: auto;
     margin-bottom: auto;
+    margin-left: auto;
     padding: 2.5em;
     border-radius: 0.5em;
     box-shadow: 0px 0px 20px 0px hsla(0, 0%, 0%, 0.1);
@@ -159,5 +168,6 @@ input[type="checkbox"] {
   }
   .preparation {
     justify-content: flex-end;
+    margin: 0;
   }
 }
