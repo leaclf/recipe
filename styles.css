@@ -1,0 +1,163 @@
+:root {
+  box-sizing: inherit;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  padding: 0.5em;
+  max-width: 1080px;
+  margin: 1em auto;
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+}
+.header__title {
+  font-size: 1.5em;
+  font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+}
+.header__image {
+  float: left;
+  margin-right: 1em;
+  padding: 5px;
+}
+.header__text {
+  overflow: auto;
+}
+.food__image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0.45em;
+  margin-bottom: 2em;
+  max-height: 444px;
+}
+.preparation {
+  display: flex;
+  margin-bottom: 2em;
+}
+.symbol {
+  color: rgb(255, 179, 0);
+  margin-right: 0.2em;
+  align-self: center;
+}
+.preparation__text {
+  font-size: 0.8em;
+  color: #bdbdbd;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 700;
+}
+.preparation__serving {
+  color: rgb(255, 179, 0);
+  margin: 0;
+}
+.steps-container {
+  display: flex;
+}
+.steps {
+  display: flex;
+  flex: 1 1 7em;
+  color: #222;
+}
+
+.steps__header {
+  font-size: 0.8em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #bdbdbd;
+  margin: 0;
+}
+.steps__timing {
+  margin: 0;
+  color: #333;
+  font-weight: 500;
+}
+.ingredient {
+  color: #333;
+  font-size: 1.125em;
+  font-family: "Playfair Display", Georgia, "Times New Roman", Times, serif;
+}
+.ingredient__content {
+  font-weight: 400;
+  font-style: italic;
+  text-transform: capitalize;
+  font-family: "playfair display", Georgia, "Times New Roman", Times, serif;
+}
+.check {
+  margin-bottom: 1em;
+}
+.check::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+input[type="checkbox"] {
+  float: left;
+  margin-right: 1em;
+}
+.container {
+  font-size: 0.875em;
+}
+.check > label {
+  overflow: auto;
+  color: #828282;
+  display: block;
+}
+.instruction {
+  font-size: 1.5em;
+  font-family: "playfair display", Georgia, "Times New Roman", Times, serif;
+  color: #333;
+}
+.order {
+  width: 3em;
+  background-color: #f2994a;
+  padding: 0.5em;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  float: left;
+  clear: both;
+  margin-right: 1em;
+  border-radius: 0.3em;
+}
+.procedure {
+  font-size: 1rem;
+  overflow: auto;
+}
+.order-float {
+  margin-bottom: 1.5em;
+}
+.order-float::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.long {
+  overflow: hidden;
+}
+@media (min-width: 48em) {
+  .header__title {
+    font-size: 4em;
+  }
+  main {
+    display: flex;
+  }
+  .container {
+    order: -1;
+    max-width: 528px;
+  }
+  .sidepanel {
+    margin-left: auto;
+    margin-bottom: auto;
+    padding: 2.5em;
+    border-radius: 0.5em;
+    box-shadow: 0px 0px 20px 0px hsla(0, 0%, 0%, 0.1);
+  }
+  .steps-container {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .preparation {
+    justify-content: flex-end;
+  }
+}
