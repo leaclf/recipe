@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://github.com/leaclf/recipe">
+    <a href="">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/leaclf/recipe">
       Solution
     </a>
     <span> | </span>
